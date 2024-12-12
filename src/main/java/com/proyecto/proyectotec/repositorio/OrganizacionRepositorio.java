@@ -10,5 +10,7 @@ public interface OrganizacionRepositorio extends JpaRepository<Organizacion, Int
     // findById
     // save
     //deleteById
+    //generar
+    //nuevo
 
 }

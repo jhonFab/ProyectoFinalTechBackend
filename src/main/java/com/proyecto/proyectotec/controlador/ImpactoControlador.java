@@ -56,6 +56,7 @@ public class ImpactoControlador {
         return ResponseEntity.ok(impactoServicio.guardar(impactoExistente));
     }
 
+
     @DeleteMapping("/{id}")
     public ResponseEntity<String> eliminarImpacto(@PathVariable Integer id) {
         impactoServicio.eliminar(id);

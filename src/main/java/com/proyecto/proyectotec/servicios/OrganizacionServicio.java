@@ -14,7 +14,7 @@ public class OrganizacionServicio {
     @Autowired
     private OrganizacionRepositorio organizacionRepositorio;
 
-    // Guardar una organización
+    // Guardar una organización que aporta
     public Organizacion guardar(Organizacion organizacion) {
         return organizacionRepositorio.save(organizacion);
     }

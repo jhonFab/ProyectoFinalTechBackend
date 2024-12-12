@@ -21,6 +21,7 @@ public class ProyectoServicio {
         return proyectoRepositorio.save(proyecto);
     }
 
+
     // Obtener todos los proyectos
     public List<Proyecto> obtenerTodos() {
         return proyectoRepositorio.findAll();
