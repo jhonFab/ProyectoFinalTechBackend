@@ -23,7 +23,7 @@ public class ProyectoControlador {
         return ResponseEntity.ok(proyectoServicio.guardar(proyecto));
     }
 
-    // Obtener todos los proyectos
+    // Obtener todos los proyectos por medio de una lista
     @GetMapping
     public ResponseEntity<List<Proyecto>> listarProyectos() {
         return ResponseEntity.ok(proyectoServicio.obtenerTodos());
